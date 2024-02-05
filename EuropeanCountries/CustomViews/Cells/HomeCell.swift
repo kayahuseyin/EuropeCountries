@@ -7,15 +7,16 @@
 
 import UIKit
 
-class SavedCell: UITableViewCell { // Degistir
+class HomeCell: UITableViewCell { // Degistir
 
     static let reuseID = "SavedCell"
-    var countryName = ECLabel(fontSize: 14, textWeight: .regular)
+    var countryName = ECLabel(fontSize: 14, textWeight: .medium)
+    var starButton = ECButton()
     
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        configure()
+        configureCell()
     }
     
     required init?(coder: NSCoder) {
@@ -27,15 +28,23 @@ class SavedCell: UITableViewCell { // Degistir
     }
     
     
-    private func configure() {
+    private func configureCell() {
         addSubview(countryName)
-        accessoryType = .disclosureIndicator
+        addSubview(starButton)
+        layer.cornerRadius = 10
+        layer.borderWidth = 2
+        
         
         NSLayoutConstraint.activate([
             countryName.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             countryName.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
             countryName.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
-            countryName.heightAnchor.constraint(equalToConstant: 40)
+            countryName.heightAnchor.constraint(equalToConstant: 40),
+            
+            starButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            starButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            starButton.heightAnchor.constraint(equalToConstant: 30),
+            starButton.widthAnchor.constraint(equalToConstant: 30)
         ])
     }
 }
