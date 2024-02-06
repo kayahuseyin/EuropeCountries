@@ -12,8 +12,21 @@ class ECTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UITabBar.appearance().tintColor = .systemBackground
-        UITabBar.appearance().backgroundColor = .gray
+        configureTabBar()
+    }
+    
+    func configureTabBar() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .gray
+        appearance.stackedLayoutAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.black]
+        appearance.stackedLayoutAppearance.selected.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.stackedLayoutAppearance.normal.iconColor = UIColor.black
+        appearance.stackedLayoutAppearance.selected.iconColor = UIColor.white
+           
+        tabBar.standardAppearance = appearance
+        tabBar.scrollEdgeAppearance = appearance
+        
         viewControllers = [createHomeVC(), createSavedVC()]
     }
     
