@@ -10,7 +10,7 @@ import UIKit
 class HomeCell: UITableViewCell { // Degistir
 
     static let reuseID = "SavedCell"
-    var countryName = ECLabel(fontSize: 14, textWeight: .medium)
+    var countryName = ECLabel(fontSize: 14, textWeight: .regular)
     var starButton = ECButton()
     
     
@@ -31,9 +31,9 @@ class HomeCell: UITableViewCell { // Degistir
     private func configureCell() {
         addSubview(countryName)
         addSubview(starButton)
-        layer.cornerRadius = 10
+        layer.cornerRadius = 8
         layer.borderWidth = 2
-        
+        layer.borderColor = countryName.textColor.cgColor // Adapt the borderColor to light/dark mode
         
         NSLayoutConstraint.activate([
             countryName.centerYAnchor.constraint(equalTo: self.centerYAnchor),
