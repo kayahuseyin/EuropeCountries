@@ -15,12 +15,13 @@
 		4EAC98862B6E502D001CB2E7 /* SavedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98852B6E502D001CB2E7 /* SavedVC.swift */; };
 		4EAC98882B6E50E5001CB2E7 /* ECTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98872B6E50E5001CB2E7 /* ECTabBarController.swift */; };
 		4EAC988A2B6E5192001CB2E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98892B6E5192001CB2E7 /* Constants.swift */; };
-		4EAC988C2B6E67DE001CB2E7 /* SavedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC988B2B6E67DE001CB2E7 /* SavedCell.swift */; };
+		4EAC988C2B6E67DE001CB2E7 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC988B2B6E67DE001CB2E7 /* HomeCell.swift */; };
 		4EAC98952B6E68DF001CB2E7 /* ECLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98942B6E68DF001CB2E7 /* ECLabel.swift */; };
 		4EAC98992B6E6E5F001CB2E7 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98982B6E6E5F001CB2E7 /* Country.swift */; };
 		4EAC989C2B6E7DCD001CB2E7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC989B2B6E7DCD001CB2E7 /* NetworkManager.swift */; };
 		4EAC989E2B6EA498001CB2E7 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC989D2B6EA498001CB2E7 /* CountryDetail.swift */; };
 		4EAC98A12B6EA6FA001CB2E7 /* ECError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */; };
+		4ECE82CE2B70F77D00A5FE62 /* ECButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +35,13 @@
 		4EAC98852B6E502D001CB2E7 /* SavedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVC.swift; sourceTree = "<group>"; };
 		4EAC98872B6E50E5001CB2E7 /* ECTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECTabBarController.swift; sourceTree = "<group>"; };
 		4EAC98892B6E5192001CB2E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4EAC988B2B6E67DE001CB2E7 /* SavedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCell.swift; sourceTree = "<group>"; };
+		4EAC988B2B6E67DE001CB2E7 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		4EAC98942B6E68DF001CB2E7 /* ECLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECLabel.swift; sourceTree = "<group>"; };
 		4EAC98982B6E6E5F001CB2E7 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		4EAC989B2B6E7DCD001CB2E7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4EAC989D2B6EA498001CB2E7 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
 		4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECError.swift; sourceTree = "<group>"; };
+		4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		4EAC988D2B6E67E4001CB2E7 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				4EAC988B2B6E67DE001CB2E7 /* SavedCell.swift */,
+				4EAC988B2B6E67DE001CB2E7 /* HomeCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -133,6 +135,7 @@
 		4EAC98962B6E6CC1001CB2E7 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -239,8 +242,9 @@
 				4EAC98992B6E6E5F001CB2E7 /* Country.swift in Sources */,
 				4EAC98862B6E502D001CB2E7 /* SavedVC.swift in Sources */,
 				4EAC98842B6E5018001CB2E7 /* HomeVC.swift in Sources */,
+				4ECE82CE2B70F77D00A5FE62 /* ECButton.swift in Sources */,
 				4EAC98882B6E50E5001CB2E7 /* ECTabBarController.swift in Sources */,
-				4EAC988C2B6E67DE001CB2E7 /* SavedCell.swift in Sources */,
+				4EAC988C2B6E67DE001CB2E7 /* HomeCell.swift in Sources */,
 				4EAC98702B6E4DDF001CB2E7 /* AppDelegate.swift in Sources */,
 				4EAC98722B6E4DDF001CB2E7 /* SceneDelegate.swift in Sources */,
 				4EAC98A12B6EA6FA001CB2E7 /* ECError.swift in Sources */,
