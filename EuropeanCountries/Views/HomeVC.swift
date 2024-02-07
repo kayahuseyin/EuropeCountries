@@ -48,7 +48,8 @@ class HomeVC: UIViewController {
     
     
     func getCountryList() {
-        NetworkManager.shared.getCountries { countries, errorMessage in
+        NetworkManager.shared.getCountries { [weak self] countries, errorMessage in
+            guard let self = self else { return }
             guard let countries = countries else {
                 print("Error fetching countries")
                 return
@@ -95,6 +96,18 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             return 40
         }
         return 15
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row % 2 == 0 {
+                let countryIndex = indexPath.row / 2
+                let selectedCountry = countries[countryIndex]
+                
+                let destVC = CountryDetailVC()
+                destVC.country = selectedCountry
+                navigationController?.pushViewController(destVC, animated: true)
+            }
     }
     
 }
