@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E6FF8E62B739B6700F7BB2D /* CountryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FF8E52B739B6700F7BB2D /* CountryDetailVC.swift */; };
 		4EAC98702B6E4DDF001CB2E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC986F2B6E4DDF001CB2E7 /* AppDelegate.swift */; };
 		4EAC98722B6E4DDF001CB2E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98712B6E4DDF001CB2E7 /* SceneDelegate.swift */; };
 		4EAC98792B6E4DE1001CB2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC98782B6E4DE1001CB2E7 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E6FF8E52B739B6700F7BB2D /* CountryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVC.swift; sourceTree = "<group>"; };
 		4EAC986C2B6E4DDF001CB2E7 /* EuropeanCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuropeanCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAC986F2B6E4DDF001CB2E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EAC98712B6E4DDF001CB2E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				4EAC98832B6E5018001CB2E7 /* HomeVC.swift */,
 				4EAC98852B6E502D001CB2E7 /* SavedVC.swift */,
+				4E6FF8E52B739B6700F7BB2D /* CountryDetailVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				4EAC98842B6E5018001CB2E7 /* HomeVC.swift in Sources */,
 				4ECE82CE2B70F77D00A5FE62 /* ECButton.swift in Sources */,
 				4EAC98882B6E50E5001CB2E7 /* ECTabBarController.swift in Sources */,
+				4E6FF8E62B739B6700F7BB2D /* CountryDetailVC.swift in Sources */,
 				4EAC988C2B6E67DE001CB2E7 /* HomeCell.swift in Sources */,
 				4EAC98702B6E4DDF001CB2E7 /* AppDelegate.swift in Sources */,
 				4EAC98722B6E4DDF001CB2E7 /* SceneDelegate.swift in Sources */,
