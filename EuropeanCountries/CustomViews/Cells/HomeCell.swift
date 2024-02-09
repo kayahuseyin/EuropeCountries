@@ -9,7 +9,7 @@ import UIKit
 
 class HomeCell: UITableViewCell { // Degistir
 
-    static let reuseID = "SavedCell"
+    static let reuseID = "HomeCell"
     var countryName = ECLabel(fontSize: 14, textWeight: .regular)
     var starButton = ECButton()
     
