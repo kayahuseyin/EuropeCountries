@@ -23,6 +23,7 @@
 		4EAC989E2B6EA498001CB2E7 /* CountryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC989D2B6EA498001CB2E7 /* CountryDetail.swift */; };
 		4EAC98A12B6EA6FA001CB2E7 /* ECError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */; };
 		4ECE82CE2B70F77D00A5FE62 /* ECButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */; };
+		4ED102AC2B7641460084AB59 /* SavedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED102AB2B7641460084AB59 /* SavedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		4EAC989D2B6EA498001CB2E7 /* CountryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetail.swift; sourceTree = "<group>"; };
 		4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECError.swift; sourceTree = "<group>"; };
 		4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECButton.swift; sourceTree = "<group>"; };
+		4ED102AB2B7641460084AB59 /* SavedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				4EAC988B2B6E67DE001CB2E7 /* HomeCell.swift */,
+				4ED102AB2B7641460084AB59 /* SavedCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				4EAC98882B6E50E5001CB2E7 /* ECTabBarController.swift in Sources */,
 				4E6FF8E62B739B6700F7BB2D /* CountryDetailVC.swift in Sources */,
 				4EAC988C2B6E67DE001CB2E7 /* HomeCell.swift in Sources */,
+				4ED102AC2B7641460084AB59 /* SavedCell.swift in Sources */,
 				4EAC98702B6E4DDF001CB2E7 /* AppDelegate.swift in Sources */,
 				4EAC98722B6E4DDF001CB2E7 /* SceneDelegate.swift in Sources */,
 				4EAC98A12B6EA6FA001CB2E7 /* ECError.swift in Sources */,
