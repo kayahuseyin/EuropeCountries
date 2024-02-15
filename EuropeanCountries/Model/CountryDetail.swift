@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CountryDetail: Decodable {
+struct CountryDetail: Codable {
     var name: Name
     var population: Int
     var capital: [String]
