@@ -24,6 +24,8 @@
 		4EAC98A12B6EA6FA001CB2E7 /* ECError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */; };
 		4ECE82CE2B70F77D00A5FE62 /* ECButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */; };
 		4ED102AC2B7641460084AB59 /* SavedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED102AB2B7641460084AB59 /* SavedCell.swift */; };
+		4EDBAB152B7E0A6E00E426C9 /* ECCountryInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBAB142B7E0A6E00E426C9 /* ECCountryInfoVC.swift */; };
+		4EDBAB182B7E107200E426C9 /* ECCountryFlagImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBAB172B7E107200E426C9 /* ECCountryFlagImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECError.swift; sourceTree = "<group>"; };
 		4ECE82CD2B70F77D00A5FE62 /* ECButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECButton.swift; sourceTree = "<group>"; };
 		4ED102AB2B7641460084AB59 /* SavedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCell.swift; sourceTree = "<group>"; };
+		4EDBAB142B7E0A6E00E426C9 /* ECCountryInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCountryInfoVC.swift; sourceTree = "<group>"; };
+		4EDBAB172B7E107200E426C9 /* ECCountryFlagImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCountryFlagImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		4EAC988F2B6E6813001CB2E7 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				4EDBAB162B7E103D00E426C9 /* ImageViews */,
+				4EDBAB132B7E09C900E426C9 /* ViewControllers */,
 				4EAC98962B6E6CC1001CB2E7 /* Buttons */,
 				4EAC98912B6E68AA001CB2E7 /* Labels */,
 				4EAC988D2B6E67E4001CB2E7 /* Cells */,
@@ -170,6 +176,22 @@
 				4EAC98A02B6EA6FA001CB2E7 /* ECError.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4EDBAB132B7E09C900E426C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDBAB142B7E0A6E00E426C9 /* ECCountryInfoVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EDBAB162B7E103D00E426C9 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				4EDBAB172B7E107200E426C9 /* ECCountryFlagImageView.swift */,
+			);
+			path = ImageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EAC989E2B6EA498001CB2E7 /* CountryDetail.swift in Sources */,
+				4EDBAB182B7E107200E426C9 /* ECCountryFlagImageView.swift in Sources */,
+				4EDBAB152B7E0A6E00E426C9 /* ECCountryInfoVC.swift in Sources */,
 				4EAC989C2B6E7DCD001CB2E7 /* NetworkManager.swift in Sources */,
 				4EAC98952B6E68DF001CB2E7 /* ECLabel.swift in Sources */,
 				4EAC98992B6E6E5F001CB2E7 /* Country.swift in Sources */,
